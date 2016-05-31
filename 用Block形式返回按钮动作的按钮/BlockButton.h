@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 typedef  void(^DGCompletionHandler)(void);
 @interface  BlockButton: UIButton
+
 /**
  *  按钮以block样式返回的触发方法
  *
@@ -16,4 +17,7 @@ typedef  void(^DGCompletionHandler)(void);
  *  @param completion    响应的回调
  */
 - (void)addActionforControlEvents:(UIControlEvents)controlEvents respond:(DGCompletionHandler)completion;
+
+
+
 @end
